@@ -1,0 +1,21 @@
+.border7 {
+    width:320px;
+padding:18px;
+border: 2px solid black;
+border-radius: 14px;
+background: linear-gradient(to bottom,wheat,bisque,white,whitesmoke);
+margin: 40px auto;
+}
+
+.H4 {
+    text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+body {
+    background-color: blanchedalmond;
+}
+
+.crepe2 {
+     border-radius: 12px;
+    image-resolution: inherit;
+}
