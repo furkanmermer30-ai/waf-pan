@@ -44,7 +44,7 @@ a:active {
 .top-left-icon {
   position: absolute;
   top: 20px;
-  right: 20px;
+  right: 21px;
   background: none;
   border: none;
   cursor: pointer; /* Makes the mouse turn into a hand */
@@ -52,3 +52,4 @@ a:active {
   color: inherit;   /* Keeps your icon color */
   text-decoration: none;
 }
+
