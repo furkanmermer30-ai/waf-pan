@@ -52,37 +52,42 @@ a:active {
   color: inherit;   /* Keeps your icon color */
   text-decoration: none;
 }
-/* The Side Menu Styling */
-.side-nav {
+/* The Gear Button */
+.tab-trigger {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 24px;
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+/* The Side Panel */
+.side-panel {
   height: 100%;
-  width: 0; /* Starts at 0 width (hidden) */
+  width: 0; /* Hidden by default */
   position: fixed;
-  z-index: 1000;
+  z-index: 9999;
   top: 0;
   right: 0;
-  background-color: #111;
+  background-color: #f8f9fa; /* Light grey background */
+  box-shadow: -2px 0 5px rgba(0,0,0,0.2);
   overflow-x: hidden;
-  transition: 0.5s; /* Smooth slide effect */
+  transition: 0.5s; /* Slide speed */
   padding-top: 60px;
-  color: white;
 }
 
-.side-nav a {
-  padding: 8px 32px;
-  text-decoration: none;
-  font-size: 20px;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
+.tab-content {
+  padding: 20px;
+  font-family: sans-serif;
 }
 
-.side-nav .close-btn {
+.closebtn {
   position: absolute;
-  top: 0;
-  right: 25px;
+  top: 10px;
+  left: 20px;
   font-size: 36px;
+  text-decoration: none;
+  color: #333;
 }
-
-
-
-
