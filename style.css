@@ -52,6 +52,37 @@ a:active {
   color: inherit;   /* Keeps your icon color */
   text-decoration: none;
 }
+/* The Side Menu Styling */
+.side-nav {
+  height: 100%;
+  width: 0; /* Starts at 0 width (hidden) */
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s; /* Smooth slide effect */
+  padding-top: 60px;
+  color: white;
+}
+
+.side-nav a {
+  padding: 8px 32px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.side-nav .close-btn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+}
+
 
 
 
