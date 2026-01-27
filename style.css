@@ -42,7 +42,10 @@ a:active {
 }
 
 .top-left-icon {
-  position: absolute;
-  top: 20px;   /* Distance from top */
-  left: 20px;  /* Distance from left */
+  position: absolute; /* Detaches it from the normal layout */
+  top: 20px;          /* Distance from the top */
+  right: 20px;         /* Distance from the RIGHT edge */
+  font-size: 1.5rem;  /* Adjusts size */
+  cursor: pointer;    /* Makes it look clickable */
 }
+
